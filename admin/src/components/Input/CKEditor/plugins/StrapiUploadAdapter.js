@@ -1,6 +1,5 @@
-const Plugin = window.CKEditor5.core.Plugin;
-const FileRepository = window.CKEditor5.upload.FileRepository;
-
+// @ts-nocheck
+import { Plugin, FileRepository} from 'ckeditor5';
 /**
  * Similar to Simple upload adapter but customized for Strapi.
  * Inspired by https://github.com/ckeditor/ckeditor5/blob/master/packages/ckeditor5-upload/src/adapters/simpleuploadadapter.js
